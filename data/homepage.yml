@@ -74,11 +74,11 @@ experience:
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
-    URL: "https://www.linkedin.com/company/radity/"
+    URL: "https://www.linkedin.com/in/navneetlalgupta/"
   button2:
     icon: "icon-profile-fill"
     btnText: "Download My Resume"
-    URL: "#"
+    URL: "/files/resume.pdf"
 
   items:
     - title: "Full-Stack Developer"
@@ -241,3 +241,8 @@ newsletter:
   success_message: "Successfully subscribed"
   error_message: "Error while subscribing."
   note: "We'll never share your email with anyone else."
+
+# footer
+footer:
+  avatarUrl: https://secure.gravatar.com/avatar/56a420e5ae9780f4af27507c8e17daec
+  avatarAlt: gravatar - navneetlalg@gmail.com
