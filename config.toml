@@ -3,8 +3,8 @@ languageCode = "en-us"
 title = "Navneet | Professional Profile"
 
 [author]
-  name = "Radity"
-  homepage = "https://radity.com/"
+  name = "Navneet Lal Gupta"
+  homepage = "https://navneetlal.github.io/"
 
 # Plugins
 [params.plugins]
@@ -35,8 +35,8 @@ title = "Navneet | Professional Profile"
   weight = 2
 
   [[menu.header]]
-  name = "Portfolio"
-  URL = "#portfolio"
+  name = "Blog"
+  URL = "/blogs"
   weight = 3
 
   [[menu.header]]
@@ -51,8 +51,8 @@ title = "Navneet | Professional Profile"
   weight = 2
 
   [[menu.footer]]
-  name = "Portfolio"
-  URL = "#portfolio"
+  name = "Blog"
+  URL = "/blogs"
   weight = 3
 
   [[menu.footer]]
@@ -63,7 +63,7 @@ title = "Navneet | Professional Profile"
 
 [params]
 
-  sections = ["showcase", "about", "education", "experience", "technologies", "testimonial", "contact", "newsletter"]
+  sections = ["showcase", "about", "education", "experience", "technologies", "testimonial", "contact"]
 
   googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
 

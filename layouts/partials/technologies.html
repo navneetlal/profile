@@ -9,8 +9,9 @@
         <div class="clients">
           {{ range .Site.Data.homepage.technologies.clients }}
           <div class="clients__item">
-            <a href="https://radity.com">
+            <a target="_blank" rel="noreferrer" href="{{ .url }}">
               <img
+                height="30px"
                 class="lozad img-responsive"
                 src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
                 data-src="{{ .logo.x | absURL }}"

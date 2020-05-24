@@ -1,3 +1,7 @@
+# title
+head:
+  title: Navneet Lal Gupta | Profile
+
 # showcase
 showcase:
   enable: true
@@ -15,7 +19,7 @@ showcase:
   button:
     icon: "icon-mail-fill"
     btnText: "Contact"
-    URL: "https://radity.com/en/contact/"
+    URL: "#contact"
 
   socialLinks:
     - icon: "linkedin"
@@ -45,8 +49,8 @@ about:
     btnText: "About Me"
     URL: "https://www.linkedin.com/in/navneetlalgupta/"
   image:
-    x: "img/who-am-i/user-picture.png"
-    _2x: "img/who-am-i/user-picture@2x.png"
+    x: "img/who-am-i/user-picture.webp"
+    _2x: "img/who-am-i/user-picture@2x.webp"
 
 # education
 education:
@@ -65,7 +69,8 @@ education:
 experience:
   enable: true
   title: "Experience"
-  description: "With 2+ years of experience of working with this company, I designed many products on various domain"
+  description: "With 2+ years of experience of working, I designed many products on various 
+  domain and have used many tools which helps in better development and tracking."
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
@@ -87,34 +92,99 @@ technologies:
 
   clients:
     - logo:
-        x: "img/clients/asgardia.png"
-        _2x: "img/clients/asgardia@2x.png"
-      alt: "Asgardia"
+        x: "img/technologies/nodejs.svg"
+        _2x: "img/technologies/nodejs.svg"
+      alt: NodeJs
+      url: https://nodejs.org
+    - logo:
+        x: "img/technologies/reactjs.svg"
+        _2x: "img/technologies/reactjs.svg"
+      alt: ReactJs
+      url: https://reactjs.org/
+    - logo:
+        x: "img/technologies/redux.png"
+        _2x: "img/technologies/redux.png"
+      alt: "Redux"
+      url: https://redux.js.org/
+    - logo:
+        x: "img/technologies/mongodb.svg"
+        _2x: "img/technologies/mongodb.svg"
+      alt: "MongoDB"
+      url: https://mongodb.com/
+    - logo:
+        x: "img/technologies/cassandra.svg"
+        _2x: "img/technologies/cassandra.svg"
+      alt: "Cassandra"
+      url: https://cassandra.apache.org/
+    - logo:
+        x: "img/technologies/graphql.svg"
+        _2x: "img/technologies/graphql.svg"
+      alt: "GraphQL"
+      url: https://graphql.org/
+    - logo:
+        x: "img/technologies/kafka.svg"
+        _2x: "img/technologies/kafka.svg"
+      alt: "Kafka"
+    - logo:
+        x: "img/technologies/rxjs.svg"
+        _2x: "img/technologies/rxjs.svg"
+      alt: "RxJs"
+      url: https://rxjs.dev/
+    - logo:
+        x: "img/technologies/elasticsearch.svg"
+        _2x: "img/technologies/elasticsearch.svg"
+      alt: "ElasticSearch"
+      url: https://www.elastic.co/
 
     - logo:
-        x: "img/clients/earth-2.png"
-        _2x: "img/clients/earth-2@2x.png"
-      alt: "Earth 2.0"
+        x: "img/technologies/typescript.svg"
+        _2x: "img/technologies/typescript.svg"
+      alt: "Typescript"
+      url: https://www.typescriptlang.org/
 
     - logo:
-        x: "img/clients/goldline.png"
-        _2x: "img/clients/goldline@2x.png"
-      alt: "Goldline"
+        x: "img/technologies/docker.svg"
+        _2x: "img/technologies/docker.svg"
+      alt: "Docker"
+      url: https://www.docker.com/
+    - logo:
+        x: "img/technologies/k8s.svg"
+        _2x: "img/technologies/k8s.svg"
+      alt: "Kubernetes"
+      url: https://kubernetes.io
+    - logo:
+        x: "img/technologies/terraform.svg"
+        _2x: "img/technologies/terraform.svg"
+      alt: "Terraform"
+      url: https://www.terraform.io/
 
     - logo:
-        x: "img/clients/kanba.png"
-        _2x: "img/clients/kanba@2x.png"
-      alt: "Kanba"
+        x: "img/technologies/nginx.svg"
+        _2x: "img/technologies/nginx.svg"
+      alt: "NGINX"
+      url: https://www.nginx.com/
 
     - logo:
-        x: "img/clients/zoo-tv.png"
-        _2x: "img/clients/zoo-tv@2x.png"
-      alt: "Zoo"
+        x: "img/technologies/aws.svg"
+        _2x: "img/technologies/aws.svg"
+      alt: "AWS"
+      url: https://aws.amazon.com/
+    - logo:
+        x: "img/technologies/azure.svg"
+        _2x: "img/technologies/azure.svg"
+      alt: "Azure"
+      url: https://azure.microsoft.com/
 
     - logo:
-        x: "img/clients/ztos.png"
-        _2x: "img/clients/ztos@2x.png"
-      alt: "Ztos"
+        x: "img/technologies/csharp.svg"
+        _2x: "img/technologies/csharp.svg"
+      alt: "C Sharp"
+      url: https://docs.microsoft.com/en-us/dotnet/csharp/
+    - logo:
+        x: "img/technologies/dotnetcore.svg"
+        _2x: "img/technologies/dotnetcore.svg"
+      alt: ".Net Core"
+      url: https://docs.microsoft.com/en-us/dotnet/core/
 
 # testimonial
 testimonial:
