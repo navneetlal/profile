@@ -1,6 +1,10 @@
 # title
 head:
   title: Navneet Lal Gupta | Profile
+  first_name: Navneet Lal
+  last_name: Gupta
+  gender: male
+  og_image: "img/who-am-i/user-picture.webp"
 
 # showcase
 showcase:
@@ -9,7 +13,7 @@ showcase:
   subtitle: "Full Stack Developer"
   description: "<p>I work at <a target='_blank' href='https://stackroute.in/'>StackRoute (An NIIT Incubated Venture)</a>, 
   a B2B training company based in Bangalore. StackRoute runs immersive product engineering based boot camps where developers 
-  get to build and release a real tech product. </ p><p>We as a develepor build tools/projects which helps the programs to run more efficiently and managed.</p>"
+  get to build and release a real tech product. </ p><p>We as a developer build tools/projects which helps the programs to run more efficiently and managed.</p>"
   image:
     x: "img/showcase/showcase.png"
     _2x: "img/showcase/showcase@2x.png"
@@ -69,8 +73,8 @@ education:
 experience:
   enable: true
   title: "Experience"
-  description: "With 2+ years of experience of working, I designed many products on various 
-  domain and have used many tools which helps in better development and tracking."
+  description: "With 2+ years of experience of working, I have designed many products on various 
+  domain and have used many tools which helps in better development and tracking of progress."
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
@@ -186,32 +190,6 @@ technologies:
       alt: ".Net Core"
       url: https://docs.microsoft.com/en-us/dotnet/core/
 
-# testimonial
-testimonial:
-  enable: false
-  title: "Testimonials"
-  items:
-    - name: "Daniel Jordan"
-      position: "Phonet, CEO"
-      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
-      image:
-        x: "img/testimonials/daniel-jordan.jpg"
-        _2x: "img/testimonials/daniel-jordan@2x.jpg"
-
-    - name: "Jonathan Peters"
-      position: "Textic, CEO"
-      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
-      image:
-        x: "img/testimonials/jonathan-peters.jpg"
-        _2x: "img/testimonials/jonathan-peters@2x.jpg"
-
-    - name: "Antonio Willis"
-      position: "Cyberse, CEO"
-      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
-      image:
-        x: "img/testimonials/antonio-willis.jpg"
-        _2x: "img/testimonials/antonio-willis@2x.jpg"
-
 # contact
 contact:
   enable: true
@@ -233,14 +211,6 @@ contact:
   button:
     icon: "icon-mail-fill"
     btnText: "Send Message"
-
-# newsletter
-newsletter:
-  enable: false
-  title: "Newsletter subscription"
-  success_message: "Successfully subscribed"
-  error_message: "Error while subscribing."
-  note: "We'll never share your email with anyone else."
 
 # footer
 footer:
