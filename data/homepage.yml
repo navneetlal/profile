@@ -11,9 +11,8 @@ showcase:
   enable: true
   title: "Hello, I’m Navneet."
   subtitle: "Full Stack Developer"
-  description: "<p>I work at <a target='_blank' href='https://stackroute.in/'>StackRoute (An NIIT Incubated Venture)</a>, 
-  a B2B training company based in Bangalore. StackRoute runs immersive product engineering based boot camps where developers 
-  get to build and release a real tech product. </ p><p>We as a developer build tools/projects which helps the programs to run more efficiently and managed.</p>"
+  description: "<p>I work at <a target='_blank' href='https://www.intugine.com/'>Intugine Technologies (Logistic through innovations)</a>, 
+  a Bangalore based company pioneering in motion sensing and IoT technologies. Intugine mission is to revolutionize the logistics sector in India, It aim to digitize and revamp the industry.</ p>"
   image:
     x: "img/showcase/showcase.png"
     _2x: "img/showcase/showcase@2x.png"
@@ -86,8 +85,14 @@ experience:
 
   items:
     - title: "Full-Stack Developer"
+      company: "Intugine Technologies"
+      duration: "Dec 2020 - Present"
+    - title: "Executive Product Engineer"
       company: "StackRoute"
-      duration: "Aug 2018 - Present"
+      duration: "Jun 2020 - Nov 2020"
+    - title: "Product Engineer"
+      company: "StackRoute"
+      duration: "Aug 2018 - May 2020"
 
 # Technologies
 technologies:
@@ -208,7 +213,7 @@ contact:
     email: '<a href="mailto:navneetlalg@gmail.com">navneetlalg@gmail.com</a>'
   address:
     title: "Address"
-    address: "BTM Layout<br />Stage 2, Bangalore, India"
+    address: "BTM Layout<br />Stage 1, Bangalore, India"
   button:
     icon: "icon-mail-fill"
     btnText: "Send Message"
